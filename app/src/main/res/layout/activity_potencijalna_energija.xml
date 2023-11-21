@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PotencijalnaEnergija"
+    android:background="@color/grey">
+
+
+    <TextView
+        android:id="@+id/Masa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unosMasa"
+        android:textColor="@color/whiteShade"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="400dp"
+        android:layout_marginRight="150dp"
+        />
+
+    <EditText
+        android:id="@+id/MasaUnos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteShade"
+        android:textSize="20sp"
+        android:inputType="numberDecimal|numberSigned"
+        app:layout_constraintBottom_toBottomOf="@+id/Masa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Masa"
+        app:layout_constraintTop_toTopOf="@+id/Masa"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/Visina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unosVisina"
+        android:textColor="@color/whiteShade"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Masa"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="400dp"
+        />
+
+    <EditText
+        android:id="@+id/VisinaUnos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteShade"
+        android:textSize="20sp"
+        android:inputType="numberDecimal|numberSigned"
+        app:layout_constraintBottom_toBottomOf="@+id/Visina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Visina"
+        app:layout_constraintTop_toTopOf="@+id/Visina"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/RezultatPotenc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rezultat"
+        android:textColor="@color/whiteShade"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Visina"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="250dp"
+        />
+
+    <EditText
+        android:id="@+id/RezultatPotencIspis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteShade"
+        android:textSize="20sp"
+        android:inputType="numberDecimal|numberSigned"
+        app:layout_constraintBottom_toBottomOf="@+id/RezultatPotenc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/RezultatPotenc"
+        app:layout_constraintTop_toTopOf="@+id/RezultatPotenc"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/IzracunajPotenc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteShade"
+        android:text="@string/izracunaj"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RezultatPotencIspis"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/NatragPotenc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteShade"
+        android:text="@string/natrag"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IzracunajPotenc" />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

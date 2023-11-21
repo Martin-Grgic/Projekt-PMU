@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectPMU</string>
+    <string name="potencijalnaEnergija">Potencijalna energija</string>
+    <string name="silaElPolja">Sila električnog polja</string>
+    <string name="dobrodosli">Dobrodošli</string>
+    <string name="unos">Unesi:</string>
+    <string name="unosNaboja1">Unesi naboj 1:</string>
+    <string name="unosNaboja2">Unesi naboj 2</string>
+    <string name="unosUdaljenosti">Unesi udaljenost:</string>
+    <string name="rezultat">Rezultat:</string>
+    <string name="izracunaj">Izračunaj</string>
+    <string name="natrag">Natrag</string>
+    <string name="unosMasa">Unos Mase:</string>
+    <string name="unosVisina">Unos Visine:</string>
+</resources>

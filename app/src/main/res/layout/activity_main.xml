@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/Dobrodosli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dobrodosli"
+        android:textColor="@color/whiteShade"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="200dp"/>
+
+    <Button
+        android:id="@+id/PotencEnergija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteShade"
+        android:text="@string/potencijalnaEnergija"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Dobrodosli"
+        android:layout_marginLeft="210dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/SilaElPolja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteShade"
+        android:text="@string/silaElPolja"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Dobrodosli"
+        android:layout_marginRight="210dp"
+        android:layout_marginLeft="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
